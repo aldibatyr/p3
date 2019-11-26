@@ -1,0 +1,154 @@
+.worksHero {
+  height: 30vh;
+}
+
+.worksTitle {
+  max-width: 200px;
+  height: 100px;
+  font-size: 5rem;
+  float: right;
+  background: #d81010df;
+}
+
+.heading {
+  margin-bottom: 50px;
+  height: 30vh;
+
+}
+.heading-title {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 4rem;
+  background: #d81010ab;
+  line-height: 75%;
+}
+
+.worksTitleText {
+  color: #030607e3;
+  margin: 0;
+  line-height: 55%;
+  font-size: 4rem;
+}
+
+.projectBox {
+  height: 100%;
+}
+
+.projectImage img {
+  max-width: 100%;
+}
+
+.left-or-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-text {
+  background: #d81010a1;
+  width: 75px;
+  height: 50px;
+  margin-bottom: 100px;
+}
+
+.action-text>p {
+  line-height: 55%;
+  color: #030607b0;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.project {
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.projectDescription {
+  position: absolute !important;
+  background: #d81010c7;
+  font-size: 1.2rem;
+  width: 30%;
+  padding: 2%;
+}
+
+.project-right {
+  left: -5%;
+  top: -5%;
+}
+
+.project-left {
+  right: -5%;
+  top: -5%;
+}
+
+.left {
+  top: 40%;
+  right: -10%;
+}
+
+.right {
+  top: 40%;
+  left: -10%;
+}
+
+.technologies {
+  position: absolute;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #d81010a1;
+  text-align: left;
+  z-index: 1400;
+  line-height: -0.2rem;
+}
+
+.tech-left {
+  left: -5%;
+  top: 30%;
+}
+
+.tech-right {
+  right: -5%;
+  top: 30%;
+}
+
+.tech-li-element {
+  font-size: 1.2rem;
+  list-style: none;
+  margin: 0 4px;
+  text-transform: uppercase;
+}
+
+
+.project-link {
+  position: absolute;  
+  background: #d81010c7;
+  text-align: center;
+  width: 30%;
+}
+
+.link-left {
+  bottom: 2%;
+  right: -3%;
+}
+
+.link-right {
+  bottom: 2%;
+  left: -3%;
+}
+
+
+.project-link-text {
+  line-height: 10%;
+  font-size: 2rem;
+  color: #030607b0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.project-link-text:hover {
+  color: #030607b0;
+}

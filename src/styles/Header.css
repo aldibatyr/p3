@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+}
+
+.emptySpace {
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: rgb(212, 19, 57);
+  min-width: 150px;
+
+  padding-bottom: 10px;
+}
+
+.logoLink {
+  text-decoration: none !important;
+  color: #fff000;
+}
+
+.logoLink:hover {
+  color: #fff000;
+}
+
+
+.logoText {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Yeon Sung', cursive;
+  font-family: 'Liu Jian Mao Cao', cursive;
+}
